@@ -432,6 +432,9 @@ body.light-theme {
   border: 1px solid var(--first-color);
 }
 
+
+
+
 /*=============== ABOUT ===============*/
 .about__container {
   row-gap: 2.5rem;
@@ -1167,6 +1170,8 @@ body.light-theme {
   .services__card {
     padding: 5rem 2rem 1.5rem;
   }
+
+
 
   .work__container {
     grid-template-columns: repeat(3, max-content);
