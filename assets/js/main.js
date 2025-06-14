@@ -237,3 +237,28 @@ sr.reveal(`.footer, footer__container`, {
   origin: "bottom",
   distance: "30px",
 });
+
+ var testimonialSwiper = new Swiper(".testimonial__container", {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 24,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 5000, // 5 seconds between slides
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      576: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 2,
+      },
+    },
+  });
