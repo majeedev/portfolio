@@ -1,3 +1,4 @@
-<video src="assets/vedio/TCS.mp4" controls width="600">
-  متصفحك لا يدعم تشغيل الفيديو.
-</video>
+
+
+[![Watch the video](https://img.shields.io/badge/▶️-Play%20Video-red)](assets/vedio/TCS.mp4)
+
